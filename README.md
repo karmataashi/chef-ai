@@ -1,20 +1,24 @@
-Chef AI is a React-based web app that helps users generate recipe ideas or cooking instructions by asking an AI assistant. It’s a fun and interactive way to explore cooking with the power of artificial intelligence.
+# 🍳 Chef AI
 
-🌟 Functionality
+Chef AI is a React-based web app that helps users generate recipe ideas or cooking instructions by asking an AI assistant. It’s a fun and interactive way to explore cooking using the power of artificial intelligence.
 
-Users can type in ingredients they have or ask any cooking-related question.
+---
 
-The AI responds with recipes, cooking tips, or step-by-step instructions.
+## 🌟 Features
 
-Great for discovering new meals or learning to cook creatively.
+- Ask cooking-related questions or enter ingredients you have on hand.
+- Get AI-generated responses with:
+  - Recipe ideas
+  - Cooking tips
+  - Step-by-step instructions
+- Great for discovering new meals or cooking creatively.
+- Powered by Hugging Face AI for generating intelligent responses.
 
-Powered by Hugging Face AI for generating responses.
+---
 
-🧰 Tech Stack
-React – Frontend framework
+## 🛠️ Tech Stack
 
-Vite – For fast development and build setup
-
-CSS / Tailwind CSS – Styling the UI
-
-Hugging Face API – Backend AI model for generating cooking suggestions
+- **React** – Frontend framework
+- **Vite** – Fast development and build setup
+- **CSS / Tailwind CSS** – Styling the UI
+- **Hugging Face API** – Backend AI model for generating cooking suggestions

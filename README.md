@@ -1,12 +1,20 @@
-# React + Vite
+Chef AI is a React-based web app that helps users generate recipe ideas or cooking instructions by asking an AI assistant. It’s a fun and interactive way to explore cooking with the power of artificial intelligence.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Functionality
 
-Currently, two official plugins are available:
+Users can type in ingredients they have or ask any cooking-related question.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The AI responds with recipes, cooking tips, or step-by-step instructions.
 
-## Expanding the ESLint configuration
+Great for discovering new meals or learning to cook creatively.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Powered by Hugging Face AI for generating responses.
+
+🧰 Tech Stack
+React – Frontend framework
+
+Vite – For fast development and build setup
+
+CSS / Tailwind CSS – Styling the UI
+
+Hugging Face API – Backend AI model for generating cooking suggestions

@@ -16,7 +16,7 @@ export default function Ingredients(props) {
               Generate a recipe from your list of ingredients using CHEF AI.
             </p>
           </div>
-          <button>Generate</button>
+          <button onClick={props.getRecipe}>Generate</button>
         </div>
       )}
     </section>

@@ -73,6 +73,10 @@ form.ingredient-form {
 .ingredients {
   margin: 20px 80px;
 }
+.ingredients > ul,
+li {
+  color: #475467;
+}
 
 .get-recipe-container {
   display: flex;
@@ -108,6 +112,18 @@ form.ingredient-form {
   cursor: pointer;
 }
 
+.suggested-recipe-container {
+  color: #475467;
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 0px 80px;
+}
+.suggested-recipe-container ul li,
+.suggested-recipe-container ol li {
+  margin-bottom: 8px;
+}
+
 /* Make form stack vertically on small screens */
 @media (max-width: 600px) {
   .ingredient-form {
@@ -128,5 +144,9 @@ form.ingredient-form {
 
   .get-recipe-container button {
     margin-top: 6px;
+  }
+
+  .suggested-recipe-container {
+    margin: 20px 10px;
   }
 }
